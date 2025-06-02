@@ -9,7 +9,7 @@ This project requires you to have a **Google Gemini API Key** and **git** instal
 ## Installation
 
 ```bash
-command :)
+bash <(curl -Ss https://raw.githubusercontent.com/myferr/conventional-commit/refs/heads/main/x.sh)
 ```
 
 Then restart your shell or run `source ~/{YOUR_CONFIG_FILE}`
