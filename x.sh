@@ -25,3 +25,5 @@ echo "Alias 'cc' added to ~/$config_file. Please restart your shell or run 'sour
 read -p "Enter your Gemini API key: " geminikey
 echo "export const GEMINI_API_KEY = \"$geminikey\"" > ~/conventional-commit/key.js
 echo "Gemini API key saved to ~/conventional-commit/key.js"
+
+(cd ~/conventional-commit && npm install)
