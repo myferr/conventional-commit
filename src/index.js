@@ -4,7 +4,7 @@ import { GeminiModel } from "./utils/model.js";
 import { getArgument } from "./utils/args.js";
 import { execSync } from "child_process";
 import chalk from "chalk";
-import { GEMINI_API_KEY } from "./key.js";
+import { GEMINI_API_KEY } from "../key.js";
 
 let gitdiff = "";
 
