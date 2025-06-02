@@ -1,0 +1,12 @@
+{
+  "name": "conventional-commit",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "MyferIsADev",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.4.1"
+  }
+}
