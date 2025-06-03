@@ -14,7 +14,7 @@ try {
   gitdiff = "Could not get git diff.";
 }
 
-const commitMessagePrompt = `Here is the output of my 'git diff' command:\n\n${gitdiff}\n\nBased on this diff, generate a specific and complete conventional commit message. Do not provide a template, expanded description, expanded message, expanded body, footer, or ask for more information. Only provide the conventional commit header. Example: feat: improve user experience`;
+const commitMessagePrompt = `Here is the output of my 'git diff' command:\n\n${gitdiff}\n\nBased on this diff, generate a specific and complete conventional commit message with the correct scope if possible (example of a scope: feat(ui): improved accessibility). Do not provide a template, expanded description, expanded message, expanded body, footer, or ask for more information. Only provide the conventional commit header. Example: feat: improve user experience`;
 
 const instance = new GeminiModel(GEMINI_API_KEY);
 
